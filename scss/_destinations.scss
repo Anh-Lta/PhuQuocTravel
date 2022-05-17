@@ -1,0 +1,52 @@
+.destinations {
+
+    .swiper-slide {
+        width: 292px;
+        max-height: 254px;
+        margin: 0 1rem;
+    }
+
+    .swiper-container-3d .swiper-slide-shadow-left,
+    .swiper-container-3d .swiper-slide-shadow-right {
+        background-image: none;
+    }
+
+    
+    .swiper-3d .swiper-slide-shadow-right,
+    .swiper-3d .swiper-slide-shadow-left {
+        background-image: linear-gradient(to left,rgb(0 0 0 / 30%),rgba(0,0,0,0));
+    }
+    
+    &__card {
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 240px;
+    }
+
+    // &--img {
+    //     object-fit: cover;
+    //     object-position: 33%;
+
+    // }
+
+    &--text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3rem;
+        background: rgba(137, 137, 137, 0.1);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        span {
+            color: var(--white-color);
+            font-weight: var(--font-semi);
+            bottom: 1rem;
+            // text-shadow: 2px 2px 4px #9e9e9e;
+        }
+    }
+}

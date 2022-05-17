@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--main-font);
+    font-weight: var(--font-medium);
+}
+
+h1, h2 {
+    font-family: var(--h1-font);
+    color: var(--black-primary);
+    font-weight: var(--font-medium);
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    background: top center / cover no-repeat;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.main{
+    overflow-x: hidden; // for animation gsap
+}

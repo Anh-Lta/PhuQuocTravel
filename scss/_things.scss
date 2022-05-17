@@ -1,0 +1,33 @@
+.things {
+
+    &__list {
+        display: grid;
+        row-gap: 3rem;
+        &--place {
+           
+        }
+    }
+
+    &__tittle {
+        padding-bottom: 2.25rem;
+    }
+
+    &__img {
+        overflow: hidden;
+        min-height: 228px;
+    }
+
+    &__text {
+        display: grid;
+        row-gap: 1rem;
+        text-align: center;
+        &--tittle {
+            color: var(--black-primary);
+            font-size: var(--font-size-18);
+            font-weight: var(--font-medium);
+        }
+        &--descriptions {
+            color: var(--black-70);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.section {
+  padding: 4rem 0 0;
+}
+
+.container {
+  margin: 1rem 1rem;
+  max-width: 968px;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.scale-img {
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.lh-130 {
+  line-height: 130%;
+}
+
+.lh-150 {
+  line-height: 150%;
+}
+
+.tittle--css {
+  padding-bottom: var(--m-32);
+  font-size: var(--font-sm-h2);
+  letter-spacing: 0.02rem;
+  text-align: center;
+}

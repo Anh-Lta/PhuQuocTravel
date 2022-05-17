@@ -1,0 +1,16 @@
+.about {
+    text-align: center;
+    
+    &__text {
+        display: grid;
+        row-gap: 1rem;
+        padding-bottom: var(--m-18);
+        &--descriptions {
+            color: var(--black-70);
+        }
+    }
+
+    &__img {
+        overflow: hidden;
+    }
+}

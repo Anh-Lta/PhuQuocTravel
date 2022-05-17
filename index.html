@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- ==================== Icon ==================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ==================== Swipper Css ==================== -->
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+
+    <!-- ==================== AOS ==================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Phu Quoc Travel</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">PQVN.</a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#destinations" class="nav__link">Popular destinations</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#things" class="nav__link">Things to do</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#review" class="nav__link">Review</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav__close"></i>
+            </div>
+
+            <div class="nav__toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- ==================== HOME ==================== -->
+        <section class="home" id="home">
+            <img src="./img/HeaderImg.jpg" class="home__img">
+
+            <div class="home__container container">
+                <div class="home__data" 
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <span class="home__data--subtitle">Your trip can be unforgettable</span>
+                    <h1 class="home__data--tittle">phu quoc beach</h1>
+                </div>
+
+                <div class="home__social" 
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <a href="" class="home__social--link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                    <a href="" class="home__social--link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="" class="home__social--link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__cta">
+                    <button class="home__cta--btn">Check Availability</button>
+                </div>
+
+                <div class="home__book">
+
+                    <div class="home__items--list">
+                        <div class="home__items">
+                            <span class="home__items--text">Check-in</span>
+                            <div class="home__items--number">
+                                <div class="number">23 /Mar</div>
+                                <i class="ri ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__items--list">
+                        <div class="home__items">
+                            <span class="home__items--text">Check-out</span>
+                            <div class="home__items--number">
+                                <div class="number">26 /Mar</div>
+                                <i class="ri ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__items--list">
+                        <div class="home__items">
+                            <span class="home__items--text">Guests</span>
+                            <div class="home__items--number">
+                                <div class="number">03</div>
+                                <i class="ri ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__items--list">
+                        <div class="home__items">
+                            <span class="home__items--text">Have a promotion code?</span>
+                            <div class="home__items--cta">
+                                <button class="home__book--cta">Check Availability</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== ABOUT ======================== -->     
+        <section class="about section" id="about">          
+            <div class="about__container container">
+                <div class="about__data" data-aos="fade-left" data-aos-duration="2000">
+                    <h2 class="about__tittle tittle--css">a best place to enjoy<br>your life<br></h2>
+                    <div class="about__text">
+                        <div class="about__text--descriptions lh-150">Tempus purus, faucibus pulvinar tellus. 
+                            Libero aliquam mauris purus sit vel. At faucibus neque, dtygf dfg
+                            condimentum mauris enim quam ibulum.
+                        </div>
+                        <div class="about__text--descriptions lh-150">Commodo ultrices eget ultrs dolor non proin in et. Viverra imperdiet rut sed ante turpis purus porta. Et, est tellus libero congue aliquam ornare mi.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__img" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="./img/About Img.jpg" class="scale-img" alt="" >
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== DESTINATIONS ==================== -->
+        <section class="destinations section" id="destinations">
+            <h2 class="destinations__tittle lh-130 tittle--css">Popular Destinations</h2>
+            <div class="destinations__container container swiper" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1000">
+                <div class="destinations__list swiper-wrapper">
+        
+                    <!-- ==================== DESTINATION1 ==================== -->
+                    <div class="destinations__card swiper-slide">
+                        <img src="./img/Slider-1.jpg " class="destinations--img scale-img" alt="">
+                        <div class="destinations--text">
+                            <span>Rach Vem</span>
+                        </div>
+                    </div>
+        
+                    <!-- ==================== DESTINATION2 ==================== -->
+                    <div class="destinations__card swiper-slide">
+                        <img src="./img/Slider-2.png" class="destinations--img scale-img" alt="">
+                        <div class="destinations--text">
+                            <span>Hon Thom</span>
+                        </div>
+                    </div>
+        
+                    <!-- ==================== DESTINATION3 ==================== -->
+                    <div class="destinations__card swiper-slide">
+                        <img src="./img/Slider-3.jpg" class="destinations--img scale-img" alt="">
+                        <div class="destinations--text">
+                            <span>Vung Bau</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== THINGS ==================== -->
+        <section class="things section" id="things">
+            <div class="things__container container">
+                <h2 class="things__tittle tittle--css">Things to do</h2>
+                <div class="things__list">
+
+                    <!-- ==================== THINGTODO1 ==================== -->
+                    <div class="things__list--place grid">
+                        <div class="things__text" >
+                            <h3 class="things__text--tittle" data-aos="fade-right" data-aos-duration="1000">
+                                Resort glamour redefined
+                            </h3>
+                            <p class="things__text--descriptions lh-150" 
+                            data-aos="fade-right" data-aos-duration="2000">
+                                Quam non urna, impeet rutr ornare rhoncus eros venens facisis. Pha sel lus justo tor sa pien lacus sed sed condi mem. Sapien bland phara id nec nisl. Lacus velit egess dbgfd uioff.
+                            </p>
+                        </div>
+
+                        <div class="things__img" data-aos="fade-zoom-in" data-aos-duration="1000">
+                            <img class="scale-img" src="./img/AOS-Resort.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- ==================== THINGTODO2 ==================== -->
+                    <div class="things__list--place things--2 grid">
+                        <div class="things__text things--text2">
+                            <h3 class="things__text--tittle" data-aos="fade-left" data-aos-duration="1000">
+                                Modern local restaurant
+                            </h3>
+                            <p class="things__text--descriptions lh-150"
+                            data-aos="fade-left" data-aos-duration="2000">
+                                Nisi, neque sed ut gravida pr ullamcor. Vel tinunt impeiet eget viverra. Eget vitae phtra intum sene sagittis, nulla ac tincidt suspeisse. Condim odio aiof tion.
+                            </p>
+                        </div>
+
+                        <div class="things__img things--img2" data-aos="fade-zoom-in" data-aos-duration="1000">
+                            <img class="scale-img" src="./img/AOS-Restaurant.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- ==================== THINGTODO3 ==================== -->
+                    <div class="things__list--place grid">
+                        <div class="things__text">
+                            <h3 class="things__text--tittle" data-aos="fade-right" data-aos-duration="1000">
+                                Refuel and recharge
+                            </h3>
+                            <p class="things__text--descriptions lh-150" 
+                            data-aos="fade-right" data-aos-duration="2000">
+                                Ut commodo sed amet, commodo rutrum et nuc tincidid. Com ergh wrthtr modo amet morbi sit feugiat tis id dui sit. Id diam vulpu tate rhocus viverra. Eui sviv erra inte sber urdum.
+                            </p>
+                        </div>
+
+                        <div class="things__img" data-aos="fade-zoom-in" data-aos-duration="1000">
+                            <img class="scale-img" src="./img/AOS-Couple.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== REVIEW ==================== -->
+        <section class="review section" id="review">
+            <img src="./img/Review.png" alt="" class="review__img">
+            <h2 class="review__tittle tittle--css">What people say <br>about us<br></h2>
+            <div class="review__container container swiper " data-aos="fade-left" data-aos-duration="1500">
+                <div class="review__comment swiper-wrapper">
+        
+                    <div class="review__cmt swiper-slide">
+                        <img class="review__cmt--avatar" src="./img/avatar2.jpg" alt="">
+        
+                        <div class="review__cmt--review">
+                            <p class="review__cmt--text">Quis at pulvina seg gha erser regtg srtas arcu. Adipng dignissim ipsum
+                                mis volutat. Leo, at nunc laot sit via ridics facilis. Morbi quis pr dolor lacus viva accum.
+                            </p>
+                            <div class="review__cmt--person">
+                                <span class="review__cmt--person--name">John</span>
+                                <span class="review__cmt--person--country">NY.</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__cmt swiper-slide">
+                        <img class="review__cmt--avatar" src="./img/avatar1.jpg" alt="">
+        
+                        <div class="review__cmt--review">
+                            <p class="review__cmt--text">Id nullam turpis sagittis odio arcu. Vestibulum risus urna pulvinar
+                                tincidunt maecenas enim sed aliquet dui. Ridiculus pulcbi turpis enim ut. Urna.
+                            </p>
+                            <div class="review__cmt--person">
+                                <span class="review__cmt--person--name">Alixa</span>
+                                <span class="review__cmt--person--country">US</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__cmt swiper-slide">
+                        <img class="review__cmt--avatar" src="./img/avatar3.jpg" alt="">
+        
+                        <div class="review__cmt--review">
+                            <p class="review__cmt--text">Pelle urna, volutpat ut eu amet ut amet. Condimum eu sit condimen id
+                                purus, nisl, volutpat. Mattis aenean curabitur bl faucus donec pulviar.
+                            </p>
+                            <div class="review__cmt--person">
+                                <span class="review__cmt--person--name">Nina</span>
+                                <span class="review__cmt--person--country">France</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__cmt swiper-slide">
+                        <img class="review__cmt--avatar" src="./img/avatar4.jpg" alt="">
+        
+                        <div class="review__cmt--review">
+                            <p class="review__cmt--text">Venenatis amet amet donec urna neque interdum ut sit. Mi euismod massa
+                                sed eu at quis dict.
+                            </p>
+                            <div class="review__cmt--person">
+                                <span class="review__cmt--person--name">Aely</span>
+                                <span class="review__cmt--person--country">Russia</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT ==================== -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <h2 class="contact__tittle tittle--css" data-aos="fade-right" data-aos-duration="2000">
+                    Don't hesitate to <br>contact us<br>
+                </h2>
+
+                <form action="" data-aos="fade-left" data-aos-duration="2000">
+
+                    <div class="contact__inputname">
+                        <i class="ri-user-3-line contact__inputname--icon" ></i>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+
+                    <div class="contact__inputname">
+                        <i class="ri-mail-line contact__inputname--icon"></i>
+                        <input type="text" id="email" name="email" required placeholder="Your email">
+                    </div>
+
+                    <div class="contact__inputname ">
+                        <i class="ri-edit-line contact__inputname--icon"></i>
+                        <textarea name="message" id="message" required placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="contact__btn">
+                        <button class="contact__submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer section">
+            <div class="footer__container container" 
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000">
+                <div class="footer--3Info" >
+
+                    <div class="footer__info">
+                        <ul>
+                            <li class="footer__tittle">Information</li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Sights</a></li>
+                            <li><a href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__useful">
+                        <ul>
+                            <li class="footer__tittle">Useful links</li>
+                            <li><a href="#"> Questions </a></li>
+                            <li><a href="#"> Guides </a></li>
+                            <li><a href="#"> Excursions </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__contact">
+                    <ul>
+                        <li class="footer__tittle">Contacts</li>
+                        <li><a href="#"> Nhuw, Kon Tum, 28 Huso, 00378</a></li>
+                        <li><a href="#">+84 343 534 - 78</a></li>
+                        <li><a href="#">PhuQuocTravel@gmail.com</a></li>
+                    </ul>
+                    </div>
+                </div>
+
+                <div class="footer__icons">
+                    <span><a href="#">PQVN.</a></span>
+                    <div >
+                        <a href="#"><i class="footer__icons--ic ri-facebook-circle-line"></i></a>
+                        <a href="#"><i class="footer__icons--ic ri-youtube-line"></i></a>
+                        <a href="#"><i class="footer__icons--ic ri-instagram-line"></i></a>
+                        <a href="#"><i class="footer__icons--ic ri-twitter-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__copyright">
+                    <i class="ri-copyright-line"></i>
+                    <span>2022 pqvn</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- ==================== Scroll-up--icon ==================== -->
+        <a href="#" class="scroll__up">
+            <i class="ri-arrow-up-line scroll__up--icon"></i>
+        </a>
+
+    <!-- ==================== Main Js ==================== -->
+    <script src="./js/main.js"></script>
+
+    <!-- ==================== AOS ==================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ==================== Swipper Js ==================== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script>
+         AOS.init(); 
+        var swiper = new Swiper(".destinations__container", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          loop: true,
+          coverflowEffect: {
+            rotate: 0,
+          }
+        });
+
+    //     var swiper = new Swiper(".review__container", {
+    //         pagination: {
+    //     // spaceBetween: 15,
+    //     // lazyLoading: true,
+    //       el: ".swiper-pagination",
+    //       dynamicBullets: true
+    //     }
+       
+    //   });
+        var swiper = new Swiper(".review__container", {
+    spaceBetween: 30,
+    // loop: true,
+    keyboard: {
+      enabled: true
+    },
+      });
+      </script>
+
+</body>
+</html>
